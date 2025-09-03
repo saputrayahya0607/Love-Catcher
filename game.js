@@ -7,7 +7,7 @@ const restartBtn = document.getElementById("restartBtn");
 const scoreDisplay = document.getElementById("score");
 const uploadInput = document.getElementById("uploadCharacter");
 
-canvas.width = 400;
+canvas.width = 300;
 canvas.height = 600;
 
 // ------------------ Load Gambar ------------------
