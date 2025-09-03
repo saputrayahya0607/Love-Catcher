@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #ffdee9, #b5fffc);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #ff3d6e;
+}
+
+#score {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+#uploadCharacter {
+  margin: 10px 0;
+}
+
+canvas {
+  background: #fff;
+  border: 3px solid #ff3d6e;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+#controls {
+  margin-top: 15px;
+}
+
+#controls button {
+  font-size: 24px;
+  padding: 15px 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #ff3d6e;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px #c62b4f;
+}
+
+#controls button:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px #c62b4f;
+}
+
+#restartBtn {
+  display: none;
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3d9aff;
+  color: white;
+  cursor: pointer;
+}
